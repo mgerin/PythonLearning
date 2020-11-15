@@ -54,3 +54,11 @@ sisco = f"Cisco model: {model}, {slots * 2} WAN slots, IOS {ios}"
 print(sisco)
 sisco = f"Cisco model: {model.lower()}, {slots * 2} WAN slots, IOS {ios}"
 print(sisco)
+
+#string slices
+string1 = sisco
+print(string1[6: 11])
+print(string1[6:])
+print(string1[:11])
+print(string1[-1:])
+print(string1[:-1])

@@ -63,3 +63,19 @@ print(string1[:11])
 print(string1[-1:])
 print(string1[:-1])
 print(string1)
+newstring = "0123456789"
+print(newstring[::2])
+print(newstring[1::2])
+print(newstring[1:7:2])
+
+
+
+my_string = "I love programming in Python more than Ruby or Perl"
+
+print(my_string[-12])
+
+my_string = "a0:12:90:00:80:43"
+
+print(my_string[7:12])
+print(my_string[-11:-6])
+print(my_string.split(":"))

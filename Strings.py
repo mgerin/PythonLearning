@@ -55,7 +55,7 @@ print(sisco)
 sisco = f"Cisco model: {model.lower()}, {slots * 2} WAN slots, IOS {ios}"
 print(sisco)
 
-#string slices
+# string slices
 string1 = sisco
 print(string1[6: 11])
 print(string1[6:])
@@ -67,7 +67,6 @@ newstring = "0123456789"
 print(newstring[::2])
 print(newstring[1::2])
 print(newstring[1:7:2])
-
 
 
 my_string = "I love programming in Python more than Ruby or Perl"

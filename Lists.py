@@ -13,7 +13,7 @@ print(max(list2))
 list3 = ["a", "b", "c"]
 print(min(list3))
 print(max(list3))
-#print(min(list1)) - this will throw an error: TypeError: '<' not supported between instances of 'int' and 'str'
+# print(min(list1)) - this will throw an error: TypeError: '<' not supported between instances of 'int' and 'str'
 list1.append(1000)
 print(list1)
 

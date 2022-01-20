@@ -74,6 +74,36 @@ result = my_third_func()
 
 print(result * 10)
 
+
+# Coding Exercise 33
+def my_print_func():
+    print("I am becoming a Python developer!")
+
+
+my_print_func()
+
+
+# Coding Exercise 34
+def myfunc(x, y):
+    result = (x ** y) + 500
+    return result
+
+
+print(myfunc(10, 3))
+
+
+# Coding Exercise 35
+var1 = 100
+
+
+def var1_func():
+    global var1
+    print(var1 * 10)
+    var1 = 200
+
+
+var1_func()
+
 # If statements
 is_male = True
 is_tall = False

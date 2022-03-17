@@ -73,3 +73,19 @@ my_list = [10, -5, 20.02, 2018, 999]
 my_list.sort()
 
 print(my_list)
+
+my_dict = {}
+key = 'num'
+value = 1
+my_dict[key] = value
+print(my_dict)
+my_dict['num'] = 'new'
+my_dict.update({'num2': '2'})
+for k in my_dict.keys():
+    print(k)
+
+for k, v in my_dict.items():
+    type_k = type(k)
+    type_v = type(v)
+    print(k, v)
+    print(type_k, type_v)
